@@ -2,6 +2,7 @@ import Header from "@components/local/Header";
 import BackgroundBlobs from "@components/local/BackgroundBlobs";
 import { Hero } from "@components/local/Hero";
 import { Divider } from "@components/local/Divider";
+import { About } from "@components/local/About";
 
 function App() {
   return (
@@ -9,9 +10,9 @@ function App() {
       <BackgroundBlobs />
       <div className="z-50 flex w-full flex-col items-center pb-10">
         <Header />
-        <div className="mt-20">
-          <Hero />
-        </div>
+        <Hero />
+        <Divider />
+        <About />
         <Divider />
       </div>
     </div>
