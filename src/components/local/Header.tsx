@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         </div>
 
         <div className="hidden md:flex">
-          <ul className="text-neutral-100">
+          <ul className="text-neutral-100 md:gap-1 lg:gap-6 flex items-center">
             {[
               "Home",
               "About",
